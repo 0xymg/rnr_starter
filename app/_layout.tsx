@@ -8,7 +8,6 @@ import { Appearance, Platform, View } from 'react-native';
 import { NAV_THEME } from '~/lib/constants';
 import { useColorScheme } from '~/lib/useColorScheme';
 import { PortalHost } from '@rn-primitives/portal';
-import { ThemeToggle } from '~/components/ThemeToggle';
 import { setAndroidNavigationBar } from '~/lib/android-navigation-bar';
 
 const LIGHT_THEME: Theme = {
@@ -40,10 +39,15 @@ export default function RootLayout() {
       <StatusBar style={isDarkColorScheme ? 'light' : 'dark'} />
       <Stack>
         <Stack.Screen
-          name='index'
+          name='(tabs)'
           options={{
-            title: 'Starter Base',
-            headerRight: () => <ThemeToggle />,
+            headerShown: false,
+          }}
+        />
+        <Stack.Screen
+          name='+not-found'
+          options={{
+            title: 'Not Found',
           }}
         />
       </Stack>
