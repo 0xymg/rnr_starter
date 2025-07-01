@@ -6,8 +6,7 @@ A modern, feature-rich React Native starter template built with Expo, TypeScript
 
 ## 📱 Preview
 
-<img src="assets/images/ss.png" alt="React Native Starter Screenshot" style="width: 300px; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
-
+![React Native Reusables Starter Screenshots](assets/images/ss.png)
 ## 🚀 Features
 
 ### 📱 **Navigation & Layout**
