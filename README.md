@@ -4,6 +4,10 @@ A modern, feature-rich React Native starter template built with Expo, TypeScript
 
 > **Built upon [React Native Reusables](https://github.com/mrzachnugent/react-native-reusables)** - An amazing collection of copy-and-paste React Native components built with NativeWind and inspired by shadcn/ui. This starter extends the original template with additional features and screens.
 
+## 📱 Preview
+
+<img src="assets/images/ss.png" alt="React Native Starter Screenshot" style="width: 300px; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+
 ## 🚀 Features
 
 ### 📱 **Navigation & Layout**
