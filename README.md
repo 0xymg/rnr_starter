@@ -33,18 +33,20 @@ A modern, feature-rich React Native starter template built with Expo, TypeScript
   - Tooltips with customizable content
   - Theme toggle switch
 
+You can add more components with the following command:
+
+    npx @react-native-reusables/cli@latest add
+
+
+
+
+
 ### 🛠 **Development Experience**
 - **TypeScript** for type safety
 - **Expo Router** for file-based routing
 - **React Native Reanimated** for smooth animations
 - **Lucide React Native** for beautiful icons
 - **ESLint & Prettier** ready (configurable)
-
-### 📊 **Pre-built Screens**
-- **Home Dashboard**: Progress tracking, stats, interactive elements
-- **Profile Screen**: User information, activity stats, avatar management
-- **Settings Screen**: Theme toggle, notifications, security, account management
-- **About Screen**: App info, tech stack, support links, legal information
 
 ## 📦 Tech Stack
 
@@ -71,8 +73,8 @@ A modern, feature-rich React Native starter template built with Expo, TypeScript
 
 1. **Clone or download this starter template**
    ```bash
-   git clone <your-repo-url>
-   cd your-project-name
+   git clone https://github.com/0xymg/rnr_starter.git
+   cd project-name
    ```
    
    > **Note**: This starter is based on the excellent work from [React Native Reusables](https://github.com/mrzachnugent/react-native-reusables). You can also start directly from their template and add the features from this repo manually.
